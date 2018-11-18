@@ -18,7 +18,7 @@ public class BookController {
 		return "login";
 	}
 	
-	@RequestMapping("/")
+	@RequestMapping("/dashboard")
 	public String dashboard(Map<String, Object> model) {
 		return "dashboard";
 	}
